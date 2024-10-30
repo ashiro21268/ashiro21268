@@ -1,0 +1,29 @@
+To embed the keyword research tool in any website, follow these steps:
+
+First, deploy your keyword research tool to a hosting service (like Netlify or Vercel).
+
+Add this script to your website's HTML:
+
+
+
+<!-- Add to your <head> or before </body> -->
+<script src="https://your-deployed-url.com/embed.js"></script>
+
+<!-- Add where you want the tool to appear -->
+<div id="keyword-tool-container"></div>
+
+<script>
+  // Initialize the tool
+  initKeywordTool('keyword-tool-container');
+</script>
+
+
+
+
+Alternative embed using iframe directly:
+
+<iframe
+  src="https://your-deployed-url.com"
+  style="width: 100%; height: 800px; border: none; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);"
+  title="Keyword Research Tool"
+></iframe>
