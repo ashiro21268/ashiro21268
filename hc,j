@@ -1,0 +1,22 @@
+<div class="product-research-tool">
+  <iframe 
+    src="https://your-deployed-frontend-url.com" 
+    width="100%" 
+    height="800px" 
+    frameborder="0"
+    title="Product Research Tool"
+  ></iframe>
+</div>
+
+<style>
+.product-research-tool {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-research-tool iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+</style>
